@@ -121,7 +121,10 @@ span {
     height: 15%;
     padding-top: 60px;
     padding-left: 220px;
+}
 
+.phone-footer {
+    display: none;
 }
 
 /* phone responsiveness */
@@ -155,21 +158,27 @@ span {
     .a-style {
         width: 70%;
         height: 15%;
+        position: static;
     }
     
     .b-style {
         width: 70%;
         height: 15%;
+        padding: 0;
+
     }
     
     .c-style {
         width: 70%;
         height: 15%;
+        position: relative;
+
     }
     
     .d-style {
         width: 70%;
         height: 15%;
+        padding: 0;
     }
 
     .designs {
