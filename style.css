@@ -16,10 +16,6 @@
     column-gap: 20px;
 }
 
-/* .gaps {
-    column-gap: 10px;
-} */
-
 p {
     font-size: 14px;
 }
@@ -54,12 +50,6 @@ span {
 .i-width {
     width: 7%;
     height: 4%;
-}
-
-.box {
-    /* width: 60%; */
-    /* height: 100%; */
-    /* background-color: blue; */
 }
 
 .line1 {
@@ -101,28 +91,37 @@ span {
     font-size: 15px;
 }
 
-.card-body {
-    /* height: 35em; */
+.designs {
+    position: relative;
 }
 
 .a-style {
     width: 20%;
-    height: 15%;
+    height: 60%;
+    position: absolute;
 }
 
 .b-style {
-    width: 20%;
-    height: 15%;
+    width: 33%;
+    height: 10%;
+    padding-top: 60px;
+    padding-left: 180px;
+    position: relative;
 }
 
 .c-style {
     width: 20%;
-    height: 15%;
+    height: 55%;
+    padding-left: -350px;
+    position: absolute;
 }
 
 .d-style {
-    width: 20%;
+    width: 35%;
     height: 15%;
+    padding-top: 60px;
+    padding-left: 220px;
+
 }
 
 /* phone responsiveness */
@@ -197,6 +196,36 @@ span {
 
     .box-3 {
         width: 98%;
+    }
+
+    .phn-nav {
+        display: none;
+    }
+
+    .box-musk {
+        display: none;
+    }
+
+    .group-1 {
+        padding-left: 170px;
+        position: absolute;
+        z-index: 10;
+        padding-bottom: 155px;
+    }
+
+    .group-2 {
+        padding-right: 180px;
+        position: absolute;
+        z-index: 10;
+        padding-top: 170px;
+    }
+
+    .elon {
+        position: relative;
+    }
+
+    .sol {
+        padding-top: 50px;
     }
 }
 
